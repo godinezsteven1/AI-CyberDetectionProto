@@ -18,9 +18,9 @@
 
         <!-- Weka Machine Learning Library -->
         <dependency>
-            <groupId>nz.ac.waikato.cms.weka</groupId>
-            <artifactId>weka-stable</artifactId>
-            <version>3.8.0</version>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>1.0.0-M1.1</version>  <!-- Use the latest stable version -->
         </dependency>
 
         <!-- Netty for handling network traffic -->
@@ -39,14 +39,17 @@
     </dependencies>
 
     <repositories>
+
         <repository>
             <id>central</id>
             <url>https://repo1.maven.org/maven2/</url>
         </repository>
+
         <repository>
             <id>waikato-maven</id>
-            <url>https://maven.cms.waikato.ac.nz/repository/snapshot/</url>
+            <url>https://maven.cms.waikato.ac.nz/repository/weka/</url> <!-- Use the stable repo instead of snapshot -->
         </repository>
+
     </repositories>
 
     <build>

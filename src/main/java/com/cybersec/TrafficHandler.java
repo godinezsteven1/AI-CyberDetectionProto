@@ -24,7 +24,8 @@ public class TrafficHandler {
    */
   public void channelRead (ChannelHandlerContext c, Object msgs) throws Exception {
     String data = msgs.toString(); // incoming traffic data to something we can read!
-    boolean isAnomaly = AnomalyDetector.checkForAnomalies(data); // feeder
+    AnomalyDetector tempDetector = new AnomalyDetector();
+    boolean isAnomaly = tempDetector.checkForAnomalies(data); // feedeeerrrrrrr
     InetSocketAddress rAddy = (InetSocketAddress) c.channel().remoteAddress();
     String foreignIP = rAddy.getAddress().getHostAddress();
     if (isAnomaly) {
