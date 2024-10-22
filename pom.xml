@@ -47,7 +47,7 @@
 
         <repository>
             <id>waikato-maven</id>
-            <url>https://maven.cms.waikato.ac.nz/repository/weka/</url> <!-- Use the stable repo instead of snapshot -->
+            <url>https://maven.cms.waikato.ac.nz/repository/weka/</url>
         </repository>
 
     </repositories>
