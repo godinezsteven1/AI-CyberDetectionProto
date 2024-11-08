@@ -1,4 +1,4 @@
-package com.cybersec;
+package cybersecshared.com;
 
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
@@ -29,7 +29,6 @@ class AnomalyDetector {
             .layer(2, new DenseLayer.Builder().nIn(32).nOut(64).build())  // Decoder layer
             .layer(3, new DenseLayer.Builder().nIn(64).nOut(100).build()) // Output layer
             .build();
-
     network = new MultiLayerNetwork(config);
     network.init();
   }

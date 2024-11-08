@@ -1,4 +1,4 @@
-package com.cybersec;
+package cybersecshared.com;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
