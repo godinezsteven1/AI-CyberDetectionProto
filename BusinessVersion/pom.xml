@@ -23,6 +23,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.haifengl</groupId>
+            <artifactId>smile-core</artifactId>
+            <version>2.6.0</version>
+        </dependency>
         <!-- Spring Boot Starter for Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,8 +74,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>9</source>
+                    <target>9</target>
                 </configuration>
             </plugin>
         </plugins>

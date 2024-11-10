@@ -8,18 +8,15 @@
         <artifactId>AI-CyberDetectionProto</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <groupId>com.cybersecurity</groupId>
     <artifactId>Shared</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Shared Module</name>
-
     <properties>
         <!-- Java compatibility -->
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <!-- Netty -->
         <dependency>
@@ -27,8 +24,32 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.65.Final</version>
         </dependency>
-
+        <!-- Log4j for logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.14.0</version>
+        </dependency>
+        <!-- Blocked IP addresses  -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.5.0</version>
+        </dependency>
+        <!-- DeepLearning4J network configurations -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>1.0.0-M1.1</version>
+        </dependency>
+        <!-- ND4J DeepLearning4J -->
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <version>1.0.0-M1.1</version>
+        </dependency>
     </dependencies>
+
 
     <build>
         <plugins>

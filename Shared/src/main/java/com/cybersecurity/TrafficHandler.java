@@ -1,4 +1,4 @@
-package cybersecshared.com;
+package com.cybersecurity;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

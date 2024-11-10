@@ -1,4 +1,4 @@
-package cybersecshared.com;
+package com.cybersecurity;
 
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;

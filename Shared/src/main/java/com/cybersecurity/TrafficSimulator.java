@@ -1,4 +1,4 @@
-package cybersecshared.com;
+package com.cybersecurity;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.embedded.EmbeddedChannel;
@@ -16,7 +16,7 @@ public class TrafficSimulator {
     /**
      * lets create our traffic of what we expect which include
      * - Normal
-     * - anomalies (random payload data)
+     * - anomalies (random payload data) for now
      */
 
     // normal
